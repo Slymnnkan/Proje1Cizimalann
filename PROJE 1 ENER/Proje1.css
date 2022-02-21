@@ -1,0 +1,113 @@
+
+        
+#liste{
+	width: 500px;
+	
+
+}
+
+#liste div{
+	float:left;
+	margin:10px;
+	z-index:1;
+	cursor:move;
+}
+
+#liste img{
+	width: 65x;
+    height: 65px;
+	margin-right: 20px;
+	object-fit:contain;
+	float: left;
+
+}
+
+
+.sepet{
+right:0;
+top:0;
+bottom: 0;
+background:gray;
+width: 64%;
+position: fixed;
+border-style: groove;
+z-index: 2;
+
+
+
+}
+
+.sepet .tasi {
+	float:left;
+	width: 65px;
+	margin:30px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 30px;
+	margin-right: 20px;
+	
+
+}
+
+.sepet .tasi img{
+width:100%;
+}
+
+.sepet .kaldir{
+cursor:pointer;
+color:white;
+}
+
+.sepet h2{
+	color: white;
+	text-align: center;
+}
+
+
+#buton{
+	text-align: center;
+}
+
+#butonlar{
+	opacity: 0.8;
+	background-color: gray;
+	border-style:groove;
+	border-color: gray;
+}
+
+#butonlar button{
+background-color: gray;
+color: white;
+font-size: 16px;
+}
+
+
+#çizim h2{
+border-radius: 2px;
+}
+
+
+#liste .paragraf1{
+	
+	float: left;
+	border-style: groove;
+	border-color: gray;
+	margin:0;
+	margin-top: 50px;
+	font-weight: bolder;
+	color:gray;
+	font-size: 15px;
+
+}
+#liste .paragraf2{
+	
+	float: left;
+	border-style: groove;
+	border-color: gray;
+	margin:0;
+	margin-top: 20px;
+	font-weight: bolder;
+	color:gray;
+	font-size: 12px;
+
+}
